@@ -32,6 +32,7 @@ const fetchResults = async (targetLocation) => {
     let temp =  data.current.temp_c
     let condition =  data.current.condition.text
     updatedetails(temp,locationName,time,condition)
+    updateBackground(condition);
 }
 function updatedetails(temp,locationName,time,condition){
 
