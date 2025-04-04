@@ -46,6 +46,8 @@ function updatedetails(temp,locationName,time,condition){
     locationField.innerText = locationName
     dataField.innerText=`${splitDate} ${currentDay} ${splitTime}`;
     weatherField.innerText=condition
+
+    
     
 }
 
@@ -58,19 +60,19 @@ fetchResults(target)
 
 function getDayName(number){
     switch(number){
-            case 0:
+        case 6:
             return 'sunday'
-            case 1:
+        case 0:
             return 'monday'
-            case 2:
+        case 1:
             return 'tuesday'
-            case 3:
+        case 2:
             return 'wednesday'
-            case 4:
+        case 3:
             return 'thursday'
-            case 5:
+        case 4:
             return 'friday'
-            case 6:
+        case 5:
             return 'saturday'
 
     }
