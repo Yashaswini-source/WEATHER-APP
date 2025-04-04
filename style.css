@@ -1,0 +1,62 @@
+
+*{
+    margin:0%;
+    padding:0%;
+}.container{
+    background-color: rgb(27, 29, 26);
+    color: rgb(217, 230, 28);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.weather{
+    
+}
+.temp{
+    font-size: 5rem;
+    font-weight: 400;
+}
+.city{
+    font-size: 2.5rem;
+
+}
+.timeanddate{
+font-size: 2.5rem;
+}
+.climate{
+    font-size: 2.5rem;
+}
+nav{
+    height: 100px;
+    
+    
+}
+.name{
+
+    border:none;
+    font-size: 1.5rem;
+    outline: none;
+    border: 1px solid white;
+    background-color: transparent;
+    padding: 1rem;
+    color: rgb(51, 207, 197);
+    border-radius: 1rem;
+
+}
+button{
+    color:black;
+    border:none;
+    font-size: 1.5rem;
+    outline: none;
+    border: 1px solid white;
+    background-color: rgb(237, 111, 176);
+    cursor:pointer;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+
+
